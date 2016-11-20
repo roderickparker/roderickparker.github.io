@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>You are music!</title>
+         <style>
+            body {
+                background: black;
+                color: white;
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            [id=all-contents] {
+                max-width: 800px;
+                margin: auto;
+            }
+
+            /* navigation menu */
+            nav {
+                background: rgb(192, 192, 192);
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            /* main container area beneath menu */
+            main {
+                background: red;
+                display: flex;
+            }
+            [class=sidebar] {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            [class=sidebar] img {
+                width: 200px;
+            }
+            [class=content] {
+                flex: 1;
+                padding: 15px;
+            }
+            [class=interests] header {
+                font-size: 1.25em;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        
+    </body>
+        <div id="all-contents"> 
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+    
+            <main>
+                <audio autoplay loop>
+                    <source src="Drake-Ft.-The-Throne-Pop-Style-Instrumental-Abid.mp3" type="audio/mp3">
+                </audio>
+                <div class="sidebar">
+                    <img src="i_love_music_2-t2.jpg"/>
+                </div>
+
+                <div class="content">
+                    <header>You are music!</header>
+                    <p>This is a website about me and listening to music anywhere!!!!!!!!</p>
+                     <section class="interests">
+                        <header>My Interests</header>
+                        <ul>
+                            <li>playing basketball</li>
+                            <li>listening to music</li>
+                            <li>being myself</li>
+                        </ul>
+                </div>
+            </main>
+        </div>
+</html>
